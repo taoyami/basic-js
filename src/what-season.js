@@ -27,7 +27,7 @@ function getSeason(date) {
 		if(m >= 6 && m <= 8) return 'summer';
 		if(m >= 9 && m <= 11) return 'autumn';
 	}
-	throw Error('Invalid date!');
+	   throw Error('Invalid date!');
 }
 
 module.exports = {
